@@ -176,8 +176,7 @@ int main()
                 if(i==j)
                     adjmatrix[i][j]=adjmatrix[j][i]=1;
                 else
-                    adjmatrix[i][j]=adjmatrix[j][i]=
-                    (intersect(pa[i].first,pa[i].second,pa[j].first,pa[j].second));
+                    adjmatrix[i][j]=adjmatrix[j][i]=(intersect(pa[i].first,pa[i].second,pa[j].first,pa[j].second));
             }
         }
         for(int k=1;k<=n;k++)
