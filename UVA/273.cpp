@@ -143,7 +143,6 @@ bool intersect(point p1, point p2, point p3, point p4)
             ccw(p3, p4, p1) * ccw(p3, p4, p2) <= 0;
 }
 
-
 int main()
 {
     #ifndef ONLINE_JUDGE
