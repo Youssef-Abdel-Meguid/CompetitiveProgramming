@@ -87,7 +87,6 @@ void solve(int x,int y,int z)
     tmp=min(c-z,y);
     if(!visi1[x][abs(y-tmp)][z+tmp])
         solve(x,abs(y-tmp),z+tmp);
-
 }
 
 int main()
@@ -102,7 +101,7 @@ int main()
         memset(visi2,false,sizeof(visi2));
         ans=0;
         solve(0,0,0);
-        cout<<ans-1<<endl; /*ans-1 cuz this case 0 0 0 not counted*/
+        cout<<ans-1<<endl;
     }
     return 0;
 }
