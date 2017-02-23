@@ -3,7 +3,7 @@
 using namespace std;
 
 bool isprime[500001];
-long long factors_sum[500001],lsopf[500001];
+int factors_sum[500001],lsopf[500001];
 
 void seive()
 {
@@ -57,14 +57,13 @@ int main()
     scanf("%d",&cases);
     while(cases--)
     {
-    	int n,m;
-    	long long ans=-1;
+    	int n,m,ans=-1;
     	scanf("%d%d",&n,&m);
     	if(n>m)
     		swap(n,m);
     	for(int i=n;i<=m;i++)
     		ans=max(ans,lsopf[i]);
-    	printf("Case #%d:\n%lld\n",c++,ans);
+    	printf("Case #%d:\n%d\n",c++,ans);
     }
     return 0;
 }
