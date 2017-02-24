@@ -28,7 +28,6 @@ int main()
     while(scanf("%d",&n)!=EOF)
     {
     	init();
-    	bool flag=false;
     	int a,indx=0;
     	for(int i=0;i<n;i++)
     	{
