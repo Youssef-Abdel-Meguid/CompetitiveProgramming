@@ -28,6 +28,7 @@ int main()
     while(scanf("%d",&n)!=EOF)
     {
     	init();
+    	bool flag=false;
     	int a,indx=0;
     	for(int i=0;i<n;i++)
     	{
@@ -54,17 +55,17 @@ int main()
     			vec[i][j].second.second=pushs[3];
     		sort(vec[i].begin(),vec[i].end());
     		for(int j=0;j<x;j++)
-    			cout<<vec[i][j].second.second<<endl;
+    			printf("%s\n",vec[i][j].second.second.c_str());
     		if(i==sz-1&&a)
     			continue;
     		if(!x)
-    			cout<<0<<endl;
+    			printf("0\n");
     		else if(x==1)
-    			cout<<1<<" "<<pops[0]<<endl;
+    			printf("1 %s\n",pops[0].c_str());
     		else if(x==2)
-    			cout<<2<<" "<<pops[0]<<" "<<pops[1]<<endl;
+    			printf("2 %s %s\n",pops[0].c_str(),pops[1].c_str());
     		else
-    			cout<<3<<" "<<pops[0]<<" "<<pops[1]<<" "<<pops[2]<<endl;
+    			printf("3 %s %s %s\n",pops[0].c_str(),pops[1].c_str(),pops[2].c_str());
     	}
     }
     return 0;
