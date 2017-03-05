@@ -1,3 +1,11 @@
+/*
+use matches method to matche a given string with any regular expression
+
+learn more from here : https://www.tutorialspoint.com/java/java_string_matches.htm
+
+and just do what the problem statment says
+*/
+
 import java.*;
 import java.util.Scanner;
 
