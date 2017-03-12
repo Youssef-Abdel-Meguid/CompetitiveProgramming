@@ -48,7 +48,7 @@ int main()
     		else
     			l=mid+1;
     	}
-    	l=1,r=2e9;
+    	l=1,r=1e9;
     	while(l<=r)
     	{
     		mid=(l+r)/2;
