@@ -1,3 +1,7 @@
+/*
+idea explanition: http://www.algorithmist.com/index.php/UVa_10161 (i wrote the code in my way :D )
+another idea: https://saicheems.wordpress.com/2013/11/29/uva-10161-ant-on-a-chessboard/
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
