@@ -2,12 +2,12 @@
 
 using namespace std;
 
-long long dx[100001+100],dy[100001+100],cntx[100001+100],cnty[100001+100];
-int x[100001+100],y[100001+100];
+long long dx[100001],dy[100001],cntx[100001],cnty[100001];
+int x[10000],y[10000];
 
 void add(long long tree[],long long val,int indx)
 {
-    while(indx<100010)
+    while(indx<100001)
     {
         tree[indx]+=val;
         indx+=(indx&-indx);
