@@ -1,3 +1,9 @@
+/*
+sure we cant calculate LCM for n numbers it's a huge number ,,,, 
+so prime factors of LCM of all n numbers =  prime factors for each ith number in the sequence 
+and of course we cant get all primes in range 10^12 all we need is prime numbers in range 10^6
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
