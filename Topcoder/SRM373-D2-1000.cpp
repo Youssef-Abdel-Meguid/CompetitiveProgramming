@@ -48,6 +48,7 @@ int area(const P& p)
 {
    return abs(p.p2.Y - p.p1.Y) * abs(p.p2.X - p.p1.X);
 }
+
 class RectangleCrossings
 {
 public:
