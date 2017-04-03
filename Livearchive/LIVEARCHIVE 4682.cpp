@@ -3,6 +3,7 @@ The idea is pretty simple :
 use binary tree (trie) with depth 31 (cuz i have 32 bits form 0 to 31) each left child has the value of bit which appers 1 in binary 
 i.e let x = 3 (decimal) so binary is 011 the value of bits 1 is (1, 2) ,,, so the left child will hold the value 1 and 2 while the right
 child hold the value 4 ,,,,, and then get the sum of values which appers 1 and maxmize the answer
+Complexity -> O(n log(n))
 */
 
 #include<bits/stdc++.h>
