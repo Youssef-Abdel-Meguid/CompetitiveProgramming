@@ -83,11 +83,11 @@ int main()
             {
                 int x, y;
                 scanf("%d%d", &x, &y);
-                int ans = a[x][y] + get_ans(x, y);
-                ans %= 4;
-                if(ans < 0)
-                    ans += 4;
-                printf("%c\n", dir[ans]);
+                int index = a[x][y] + get_ans(x, y);
+                index %= 4;
+                if(index< 0)
+                    index += 4;
+                printf("%c\n", dir[index]);
             }
         }
     }
